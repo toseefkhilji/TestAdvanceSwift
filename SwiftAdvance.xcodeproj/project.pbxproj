@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1554A0D81F4C3D3B00979F8E /* FibonacciSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1554A0D71F4C3D3B00979F8E /* FibonacciSpinner.swift */; };
 		1597AD7A1F4AA83500FEE031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597AD791F4AA83500FEE031 /* AppDelegate.swift */; };
 		1597AD7C1F4AA83500FEE031 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597AD7B1F4AA83500FEE031 /* ViewController.swift */; };
 		1597AD7F1F4AA83500FEE031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1597AD7D1F4AA83500FEE031 /* Main.storyboard */; };
 		1597AD811F4AA83500FEE031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1597AD801F4AA83500FEE031 /* Assets.xcassets */; };
 		1597AD841F4AA83500FEE031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1597AD821F4AA83500FEE031 /* LaunchScreen.storyboard */; };
+		1597AD8C1F4AA85A00FEE031 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597AD8B1F4AA85A00FEE031 /* Fonts.swift */; };
+		15E5A8F51F4EABD900F9BB1A /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E5A8F41F4EABD900F9BB1A /* CardTableViewCell.swift */; };
+		15E5A8F71F4EACF200F9BB1A /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E5A8F61F4EACF200F9BB1A /* CardViewController.swift */; };
+		15E5A8F91F4EC33100F9BB1A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E5A8F81F4EC33100F9BB1A /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		151532C51F4D4EF6002558B3 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		1554A0D71F4C3D3B00979F8E /* FibonacciSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciSpinner.swift; sourceTree = "<group>"; };
 		1597AD761F4AA83500FEE031 /* SwiftAdvance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAdvance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1597AD791F4AA83500FEE031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1597AD7B1F4AA83500FEE031 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,10 @@
 		1597AD801F4AA83500FEE031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1597AD831F4AA83500FEE031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1597AD851F4AA83600FEE031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1597AD8B1F4AA85A00FEE031 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = Font/Fonts.swift; sourceTree = "<group>"; };
+		15E5A8F41F4EABD900F9BB1A /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		15E5A8F61F4EACF200F9BB1A /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		15E5A8F81F4EC33100F9BB1A /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +67,16 @@
 			children = (
 				1597AD791F4AA83500FEE031 /* AppDelegate.swift */,
 				1597AD7B1F4AA83500FEE031 /* ViewController.swift */,
+				1597AD8B1F4AA85A00FEE031 /* Fonts.swift */,
+				1554A0D71F4C3D3B00979F8E /* FibonacciSpinner.swift */,
 				1597AD7D1F4AA83500FEE031 /* Main.storyboard */,
+				15E5A8F41F4EABD900F9BB1A /* CardTableViewCell.swift */,
+				15E5A8F81F4EC33100F9BB1A /* CardView.swift */,
+				15E5A8F61F4EACF200F9BB1A /* CardViewController.swift */,
 				1597AD801F4AA83500FEE031 /* Assets.xcassets */,
 				1597AD821F4AA83500FEE031 /* LaunchScreen.storyboard */,
 				1597AD851F4AA83600FEE031 /* Info.plist */,
+				151532C51F4D4EF6002558B3 /* MyPlayground.playground */,
 			);
 			path = SwiftAdvance;
 			sourceTree = "<group>";
@@ -136,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E5A8F91F4EC33100F9BB1A /* CardView.swift in Sources */,
+				15E5A8F51F4EABD900F9BB1A /* CardTableViewCell.swift in Sources */,
 				1597AD7C1F4AA83500FEE031 /* ViewController.swift in Sources */,
+				15E5A8F71F4EACF200F9BB1A /* CardViewController.swift in Sources */,
+				1597AD8C1F4AA85A00FEE031 /* Fonts.swift in Sources */,
+				1554A0D81F4C3D3B00979F8E /* FibonacciSpinner.swift in Sources */,
 				1597AD7A1F4AA83500FEE031 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +323,7 @@
 				1597AD8A1F4AA83600FEE031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
